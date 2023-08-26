@@ -33,7 +33,7 @@ function MovieDetails({
         setError('');
 
         const response = await fetch(
-          `http://www.omdbapi.com/?apikey=${apiKey}&i=${selectedMovieId}`
+          `https://www.omdbapi.com/?apikey=${apiKey}&i=${selectedMovieId}`
         );
 
         // if there is an error with the request
